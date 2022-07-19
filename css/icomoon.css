@@ -1,0 +1,62 @@
+@font-face {
+    font-family: icomoon;
+    src: url('../fonts/icomoon.woff') format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: block
+}
+
+[class*=" icon-"],
+[class^=icon-] {
+    font-family: icomoon !important;
+    speak: never;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon-reply:before {
+    content: "\e900"
+}
+
+.icon-search:before {
+    content: "\e901"
+}
+
+.icon-star_outline:before {
+    content: "\e902"
+}
+
+.icon-arrow_left:before {
+    content: "\e903"
+}
+
+.icon-arrow_right:before {
+    content: "\e904"
+}
+
+.icon-phone:before {
+    content: "\e905"
+}
+
+.icon-twitter:before {
+    content: "\e906"
+}
+
+.icon-instagram:before {
+    content: "\e907"
+}
+
+.icon-facebook:before {
+    content: "\e908"
+}
+
+.icon-close:before {
+    content: "\e909"
+}
+
+/*# sourceMappingURL=../sourcemaps/icomoon.css.map */
